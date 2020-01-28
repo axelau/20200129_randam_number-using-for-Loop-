@@ -21,4 +21,5 @@ for loop in Biglists:
 
 
 with open('200129.txt', 'w') as f:
-    f.wrtie(Biglists)
+	for s in Biglists:
+		f.write(str(s[0])+str(s[1])+str(s[2])+str(s[3])+'\n')
